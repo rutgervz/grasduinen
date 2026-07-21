@@ -1,0 +1,114 @@
+{
+  "source": "sample",
+  "generatedAt": null,
+  "listings": [
+    {
+      "id": "demo-1",
+      "artist": "Curtis Mayfield",
+      "title": "Roots",
+      "year": 1971,
+      "format": "LP, Album, Gatefold",
+      "condition": "Very Good Plus (VG+)",
+      "sleeveCondition": "Very Good (VG)",
+      "price": { "value": 28.5, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-2",
+      "artist": "Alice Coltrane",
+      "title": "Journey In Satchidananda",
+      "year": 1971,
+      "format": "LP, Album, Reissue",
+      "condition": "Near Mint (NM or M-)",
+      "sleeveCondition": "Near Mint (NM or M-)",
+      "price": { "value": 24.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-3",
+      "artist": "Marlena Shaw",
+      "title": "The Spice Of Life",
+      "year": 1969,
+      "format": "LP, Album",
+      "condition": "Very Good Plus (VG+)",
+      "sleeveCondition": "Very Good Plus (VG+)",
+      "price": { "value": 45.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-4",
+      "artist": "Piero Umiliani",
+      "title": "Synthi Time",
+      "year": 1971,
+      "format": "LP, Album, Reissue",
+      "condition": "Mint (M)",
+      "sleeveCondition": "Mint (M)",
+      "price": { "value": 21.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-5",
+      "artist": "Roy Ayers Ubiquity",
+      "title": "Everybody Loves The Sunshine",
+      "year": 1976,
+      "format": "LP, Album",
+      "condition": "Very Good (VG)",
+      "sleeveCondition": "Very Good (VG)",
+      "price": { "value": 32.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-6",
+      "artist": "Sault",
+      "title": "Untitled (Black Is)",
+      "year": 2020,
+      "format": "2×LP, Album",
+      "condition": "Near Mint (NM or M-)",
+      "sleeveCondition": "Near Mint (NM or M-)",
+      "price": { "value": 38.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-7",
+      "artist": "Khruangbin",
+      "title": "Con Todo El Mundo",
+      "year": 2018,
+      "format": "LP, Album",
+      "condition": "Near Mint (NM or M-)",
+      "sleeveCondition": "Very Good Plus (VG+)",
+      "price": { "value": 22.5, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-8",
+      "artist": "Ebo Taylor",
+      "title": "Love And Death",
+      "year": 2010,
+      "format": "LP, Album",
+      "condition": "Very Good Plus (VG+)",
+      "sleeveCondition": "Very Good Plus (VG+)",
+      "price": { "value": 26.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    },
+    {
+      "id": "demo-9",
+      "artist": "Cymande",
+      "title": "Cymande",
+      "year": 1972,
+      "format": "LP, Album, Reissue",
+      "condition": "Mint (M)",
+      "sleeveCondition": "Near Mint (NM or M-)",
+      "price": { "value": 29.0, "currency": "EUR" },
+      "seller": "demo",
+      "uri": "https://www.discogs.com/sell/list"
+    }
+  ]
+}

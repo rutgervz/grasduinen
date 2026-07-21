@@ -22,6 +22,15 @@ Open http://localhost:3000.
 npm run build
 ```
 
+## Partner inventory sync
+
+The shop page (`/shop`) shows live "For Sale" listings from partner sellers on Discogs.
+
+- Add partner Discogs usernames to [`data/partners.json`](data/partners.json)
+- Set a `DISCOGS_TOKEN` (personal access token from [discogs.com/settings/developers](https://www.discogs.com/settings/developers)) — as a repository secret for CI builds, or as an env var locally. Discogs hides marketplace inventory from unauthenticated API calls, so the token is required for live data.
+- `npm run sync` fetches inventories into `data/listings.json` (also runs automatically before every build)
+- Without partners or a token, the build falls back to clearly-labelled sample data, so it never breaks
+
 ## Stack
 
 - [Next.js](https://nextjs.org) (App Router, TypeScript)

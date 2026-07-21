@@ -27,6 +27,7 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /grasduinen
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
       - run: touch out/.nojekyll
       - uses: peaceiris/actions-gh-pages@v4
         with:

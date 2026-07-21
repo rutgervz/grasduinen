@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -6,7 +8,10 @@ export default function Home() {
           <div className="wordmark">
             Gras<span>duinen</span>
           </div>
-          <div className="byline">by White Rabbit</div>
+          <nav className="nav">
+            <Link href="/shop/">Shop</Link>
+            <span className="byline">by White Rabbit</span>
+          </nav>
         </div>
       </header>
 
@@ -22,7 +27,9 @@ export default function Home() {
               with a listening ear and expert advice — and buy them from
               trusted partners.
             </p>
-            <div className="status">Launching soon</div>
+            <Link className="cta" href="/shop/">
+              Browse the racks →
+            </Link>
           </div>
         </section>
 
