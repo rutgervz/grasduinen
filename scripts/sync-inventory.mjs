@@ -18,7 +18,7 @@ const SAMPLE_FILE = path.join(ROOT, "data", "listings.sample.json");
 const PARTNERS_FILE = path.join(ROOT, "data", "partners.json");
 
 const USER_AGENT =
-  "Grasduinen/0.1 +https://rutgervz.github.io/grasduinen (inventory sync)";
+  "TheWhiteRabbit/0.1 +https://rutgervz.github.io/grasduinen (inventory sync)";
 const PER_PAGE = 100;
 const MAX_PAGES_PER_SELLER = 3;
 

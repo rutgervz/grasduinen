@@ -1,11 +1,12 @@
-# Grasduinen
+# The White Rabbit
 
 An AI-native vinyl record shop built on Discogs, driven by the curation of the White Rabbit record store and the White Rabbit Presents podcast.
 
 Discover records the way you would in a great record store — by taste, with a listening ear and expert advice — and buy them from trusted Discogs partners.
 
 - **Vision & strategy**: see [`docs/vision.md`](docs/vision.md)
-- **Website**: Next.js app in this repository, deployed on Vercel
+- **Website**: Next.js app in this repository, live at [rutgervz.github.io/grasduinen](https://rutgervz.github.io/grasduinen/)
+- The repository keeps its original working name, *grasduinen* (Dutch for crate-digging)
 
 ## Development
 
@@ -34,7 +35,7 @@ The shop page (`/shop`) shows live "For Sale" listings from partner sellers on D
 ## Stack
 
 - [Next.js](https://nextjs.org) (App Router, TypeScript)
-- Deployed on [Vercel](https://vercel.com)
+- Deployed on GitHub Pages via GitHub Actions (Vercel-ready as well)
 - Planned: Supabase (data/auth), Discogs API (partner inventory sync)
 
 ## License

@@ -6,11 +6,10 @@ export default function Home() {
       <header>
         <div className="wrap header-inner">
           <div className="wordmark">
-            Gras<span>duinen</span>
+            The White <span>Rabbit</span>
           </div>
           <nav className="nav">
             <Link href="/shop/">Shop</Link>
-            <span className="byline">by White Rabbit</span>
           </nav>
         </div>
       </header>
@@ -22,7 +21,7 @@ export default function Home() {
               A record shop that <em>knows your taste</em>.
             </h1>
             <p>
-              Grasduinen is an AI-native vinyl shop built on Discogs. Discover
+              The White Rabbit is an AI-native vinyl shop built on Discogs. Discover
               records the way you would in a great record store — by taste,
               with a listening ear and expert advice — and buy them from
               trusted partners.
@@ -39,7 +38,7 @@ export default function Home() {
             <h2>Digging, without the dust</h2>
             <p className="lede">
               Discogs is a catalog with a shop bolted on: you have to know what
-              you&rsquo;re looking for. Grasduinen flips that — the shop knows
+              you&rsquo;re looking for. The White Rabbit flips that — the shop knows
               who you are.
             </p>
             <div className="grid">
@@ -84,8 +83,8 @@ export default function Home() {
               <div className="card">
                 <h3>The store</h3>
                 <p>
-                  At White Rabbit, music is always playing live — and every
-                  record played is present: the White Rabbit Selection.
+                  At the White Rabbit store, music is always playing live — and
+                  every record played is present: the White Rabbit Selection.
                   Whatever is on the turntable is buyable at that same moment,
                   in the store and online.
                 </p>
@@ -101,7 +100,7 @@ export default function Home() {
               <div className="card">
                 <h3>The platform</h3>
                 <p>
-                  Grasduinen scales that curation to everyone who can&rsquo;t
+                  This site scales that curation to everyone who can&rsquo;t
                   drop by — a discovery engine that learns from every visitor
                   and keeps digging for you.
                 </p>
@@ -117,7 +116,7 @@ export default function Home() {
             <p className="lede">
               Connect your Discogs inventory and join a selected, trusted
               circle of partners. On Discogs, a record is only found by someone
-              already searching for it. On Grasduinen, it gets{" "}
+              already searching for it. At The White Rabbit, it gets{" "}
               <em>offered</em> to someone with the right taste.
             </p>
             <div className="grid">
@@ -145,8 +144,8 @@ export default function Home() {
       <footer>
         <div className="wrap">
           <p>
-            Grasduinen — an independent project by White Rabbit. Not affiliated
-            with Discogs.
+            The White Rabbit — an independent, AI-native record shop. Not
+            affiliated with Discogs.
           </p>
           <p>
             Data provided by{" "}

@@ -1,16 +1,16 @@
-# Grasduinen — Vision
+# The White Rabbit — Vision
 
-*An AI-native vinyl record shop built on Discogs, driven by White Rabbit's curation.*
+*An AI-native vinyl record shop built on Discogs, driven by the curation of the White Rabbit store and the White Rabbit Presents podcast.*
 
 ---
 
 ## The concept in one paragraph
 
-Grasduinen (Dutch for "browsing / crate-digging") is a fully custom, AI-native user interface on top of Discogs: a web shop where you discover records the way you would in a great record store — by taste, with a listening ear and expert advice — instead of searching a database. Sellers on Discogs connect their inventory via OAuth; Grasduinen reads their stock through the API and presents it through a single curated, intelligent layer. The physical foundation is the White Rabbit record store, where music is always playing live and everything on the turntable can be bought instantly through trusted Discogs partners.
+The White Rabbit is a fully custom, AI-native user interface on top of Discogs: a web shop where you discover records the way you would in a great record store — by taste, with a listening ear and expert advice — instead of searching a database. Sellers on Discogs connect their inventory via OAuth; The White Rabbit reads their stock through the API and presents it through a single curated, intelligent layer. The physical foundation is the White Rabbit record store, where music is always playing live and everything on the turntable can be bought instantly through trusted Discogs partners. (The repository keeps its original working name, *grasduinen* — Dutch for crate-digging.)
 
 ## The three pillars
 
-Grasduinen is a curation machine with three faces that feed each other:
+The White Rabbit is a curation machine with three faces that feed each other:
 
 ### 1. The store (White Rabbit)
 
@@ -25,13 +25,13 @@ Grasduinen is a curation machine with three faces that feed each other:
 - Every episode becomes a **shoppable, permanent page**: listenable through the YouTube Matcher, every item buyable through the partners. Content that keeps converting for years.
 - Curation by DJs with authority solves the **cold-start problem** of the discovery engine: these are the first nodes in the taste graph.
 
-### 3. The platform (Grasduinen)
+### 3. The platform (this site)
 
 - The AI-native shop that scales the curation of the store and the podcast to everyone who can't drop by physically — and learns from every visitor.
 
 ## How it works for the user (AI-native)
 
-Discogs is a catalog with a shop bolted on: you have to know what you're looking for. Grasduinen flips that — the shop knows who you are.
+Discogs is a catalog with a shop bolted on: you have to know what you're looking for. The White Rabbit flips that — the shop knows who you are.
 
 - **Intent instead of filters.** "Warm seventies soul with strings, under €25, preferably an original pressing" → a curated stack, not 4,000 search results. The search box is a conversation.
 - **The discovery engine as a digital crate-digger.** A taste profile built from collection, wantlist, listening and buying behaviour, plus deliberately engineered serendipity: side-steps via session musicians, labels, producers, cities. Every recommendation comes with a *why* in plain language.
@@ -41,9 +41,9 @@ Discogs is a catalog with a shop bolted on: you have to know what you're looking
 
 ## The partner model
 
-- Sellers on Discogs **connect their inventory via OAuth**; Grasduinen reads their stock through the API.
+- Sellers on Discogs **connect their inventory via OAuth**; The White Rabbit reads their stock through the API.
 - Partners form a **selected, trusted circle** — not an open marketplace. That quality mark protects buyers and makes membership worth something.
-- Value proposition to partners: the discovery engine sells their **long tail** — stock that on Discogs is only found by someone already searching for it gets *offered* on Grasduinen to someone with the right taste. Plus AI tooling: pricing advice, demand insight from the taste graph, listing enrichment.
+- Value proposition to partners: the discovery engine sells their **long tail** — stock that on Discogs is only found by someone already searching for it gets *offered* on The White Rabbit to someone with the right taste. Plus AI tooling: pricing advice, demand insight from the taste graph, listing enrichment.
 - Technical advantage: Discogs' rate limit applies per token; every partner brings their own token, so sync capacity scales with the network.
 - **Inventory freshness is sacred**: nothing kills trust faster than clicking through to a record that's already sold. Sync frequently and verify live at the moment of the click.
 
@@ -51,7 +51,7 @@ Discogs is a catalog with a shop bolted on: you have to know what you're looking
 
 Core principle: **be revenue for Discogs, not a leak.**
 
-- Discogs earns ~9% on every marketplace sale. In the click-through model (discover on Grasduinen, buy on Discogs), Grasduinen is a free demand machine for their platform — exactly the relationship we want. Our own checkout that pulls sales away would turn us from partner into competitor; therefore, no.
+- Discogs earns ~9% on every marketplace sale. In the click-through model (discover on The White Rabbit, buy on Discogs), The White Rabbit is a free demand machine for their platform — exactly the relationship we want. Our own checkout that pulls sales away would turn us from partner into competitor; therefore, no.
 - **Catalog via the monthly CC0 data dumps**, not via the API. The API only for what must be live: partner inventories, prices, availability. Note: images are *not* CC0 — check their usage terms separately.
 - **Follow the API terms visibly well**: register the app formally, show the "Data provided by Discogs" attribution, no branding that suggests affiliation, respect rate limits.
 - **Transparent about OAuth**: request only the scopes we need (read inventory) and explain to partners what we do and don't do.
@@ -64,8 +64,8 @@ In one sentence: **curation as a demand machine — partners pay for demonstrabl
 
 ### Stream 1 — Partner commission on attributed sales (core)
 
-- The buyer discovers on Grasduinen and buys via click-through on Discogs. Discogs simply gets its fee — no conflict.
-- The sale is demonstrably generated by Grasduinen: click-through data matched to orders (visible through the OAuth connection).
+- The buyer discovers on The White Rabbit and buys via click-through on Discogs. Discogs simply gets its fee — no conflict.
+- The sale is demonstrably generated by The White Rabbit: click-through data matched to orders (visible through the OAuth connection).
 - The commission agreement (indicatively 5–8%) is **directly with the partner** — for them it's not a cost but marketing: long-tail sales that otherwise would not have happened.
 - Back-of-envelope: average order €30 × 6% = €1.80 per sale. 20 partners × 50 attributed sales/month ≈ €1,800/month. Conclusion: scale in partners and conversion is the dial everything turns on.
 

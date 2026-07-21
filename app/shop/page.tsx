@@ -3,7 +3,7 @@ import Link from "next/link";
 import inventory from "@/data/listings.json";
 
 export const metadata: Metadata = {
-  title: "Shop — Grasduinen",
+  title: "Shop — The White Rabbit",
   description:
     "Browse records from trusted Discogs partners. Every listing links straight to the seller on Discogs.",
 };
@@ -42,7 +42,7 @@ export default function Shop() {
       <header>
         <div className="wrap header-inner">
           <Link href="/" className="wordmark">
-            Gras<span>duinen</span>
+            The White <span>Rabbit</span>
           </Link>
           <nav className="nav">
             <Link href="/shop/">Shop</Link>
@@ -104,8 +104,8 @@ export default function Shop() {
       <footer>
         <div className="wrap">
           <p>
-            Grasduinen — an independent project by White Rabbit. Not affiliated
-            with Discogs.
+            The White Rabbit — an independent, AI-native record shop. Not
+            affiliated with Discogs.
           </p>
           <p>
             Data provided by{" "}
